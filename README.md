@@ -22,7 +22,7 @@ The course is designed to provide students with the knowledge and tools to build
 
 1. ✅[MongoDB Cluster Setup](Api/mongodb-cluster-setup.md)
 1. ✅[Flask API Building](Api/flask-api-building.md)
-1. 🟥[Vercel Deployment - For Flask Services](Api/vercel-deployment.md)
+1. ✅[Vercel Deployment - For Flask Services](Api/vercel-deployment.md)
 1. ✅[Spring Boot API Building](Api/spring-boot-api-building.md)
 1. 🟥[Koyeb Deployment - For Spring Boot Services](Api/koyeb-deployment.md)
 1. 🟥[Postman API Testing](Api/postman-api-testing.md)

@@ -19,39 +19,14 @@ This guide will walk you through the process of deploying a Flask API to Vercel.
 - Create a `runtime.txt` file with the following content:
 
     ```txt
-    python-3.9
+    python-3.12
     ```
-
-- Create a `vercel.json` file with the following content to specify the Vercel runtime:
-
-    ```json
-    {
-        "version": 2,
-        "builds": [
-        {
-            "src": "app.py",
-            "use": "@vercel/python"
-        }
-        ],
-        "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "app.py"
-        }
-        ]
-    }
-    ```
-
-  - Make sure to replace `app.py` with the name of your Flask application file.
 
 ## Step 13: Deploy Your Flask API to Vercel
 
 - Push your Flask API to a GitHub repository.
 - Import your GitHub repository to Vercel.
-- Configure the deployment settings:
-  - Set the install command to `pip install -r requirements.txt`.
-  - Set the output directory to `.`.
-  - Set the environment variables if needed.
+- Set the environment variables if needed.
 - Deploy your Flask API to Vercel.
 - Test your Flask API on Vercel.
 - Get the deployment URL and use it to access your Flask API.
